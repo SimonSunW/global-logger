@@ -8,7 +8,7 @@ There are quite a few logging packages around - this one tries to be a very simp
 All you need is initialize your logger at the start of your application. Then log by specific level wherever in your application. Close the logger afterwards.
 
 ![global-logger-example](img/global-logger-example1.png)
-This snippet will produce the following in the `application_directory/logs/[year]/[month]/[day]/[date_time].csv`:
+This snippet will produce the following in the `application_directory/logs/[year]/[month]/[day]/Demo_log.tsv`:
 ```
 15:21:40.630 23.10.2018 INFO  For loop cycle: 0 Global_logger.lvlib:Example.vi
 
