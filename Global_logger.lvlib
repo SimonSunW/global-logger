@@ -11,7 +11,10 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Controls" Type="Folder">
+			<Item Name="Logger Output.ctl" Type="VI" URL="../Logger Output.ctl"/>
 			<Item Name="Event.ctl" Type="VI" URL="../Event.ctl"/>
+			<Item Name="Level Meaning.ctl" Type="VI" URL="../Level Meaning.ctl"/>
+			<Item Name="Logger Type.ctl" Type="VI" URL="../Logger Type.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Clear Old Log Folders.vi" Type="VI" URL="../Clear Old Log Folders.vi"/>
@@ -19,17 +22,34 @@
 			<Item Name="Create Unique File.vi" Type="VI" URL="../Create Unique File.vi"/>
 			<Item Name="FGV.vi" Type="VI" URL="../FGV.vi"/>
 			<Item Name="Writer.vi" Type="VI" URL="../Writer.vi"/>
+			<Item Name="Get Last Log Part.vi" Type="VI" URL="../Get Last Log Part.vi"/>
 		</Item>
+		<Item Name="Create Logger Poly" Type="Folder">
+			<Item Name="New CSV Logger.vi" Type="VI" URL="../New CSV Logger.vi"/>
+			<Item Name="New Logger.vi" Type="VI" URL="../New Logger.vi"/>
+			<Item Name="New UI Logger.vi" Type="VI" URL="../New UI Logger.vi"/>
+			<Item Name="New File Logger.vi" Type="VI" URL="../New File Logger.vi"/>
+			<Item Name="New TSV Logger.vi" Type="VI" URL="../New TSV Logger.vi"/>
+		</Item>
+	</Item>
+	<Item Name="Tests" Type="Folder">
+		<Item Name="Stress Test - Files.vi" Type="VI" URL="../Stress Test - Files.vi"/>
 	</Item>
 	<Item Name="Examples" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Example.vi" Type="VI" URL="../Example.vi"/>
+		<Item Name="Example - File.vi" Type="VI" URL="../Example - File.vi"/>
+		<Item Name="Example - GUI.vi" Type="VI" URL="../Example - GUI.vi"/>
+		<Item Name="Example - Multiple Loggers.vi" Type="VI" URL="../Example - Multiple Loggers.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Controls" Type="Folder">
-			<Item Name="Options.ctl" Type="VI" URL="../Options.ctl"/>
+			<Item Name="File Options.ctl" Type="VI" URL="../File Options.ctl"/>
 			<Item Name="Levels.ctl" Type="VI" URL="../Levels.ctl"/>
+			<Item Name="Log Fields.ctl" Type="VI" URL="../Log Fields.ctl"/>
+			<Item Name="General Options.ctl" Type="VI" URL="../General Options.ctl"/>
+			<Item Name="UI Options.ctl" Type="VI" URL="../UI Options.ctl"/>
+			<Item Name="Sorting.ctl" Type="VI" URL="../Sorting.ctl"/>
 		</Item>
 		<Item Name="Log per level" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -40,8 +60,8 @@
 			<Item Name="Log ERROR.vi" Type="VI" URL="../Log ERROR.vi"/>
 			<Item Name="Log FATAL.vi" Type="VI" URL="../Log FATAL.vi"/>
 		</Item>
+		<Item Name="Log on Error.vi" Type="VI" URL="../Log on Error.vi"/>
 		<Item Name="Create Logger.vi" Type="VI" URL="../Create Logger.vi"/>
 		<Item Name="Destroy.vi" Type="VI" URL="../Destroy.vi"/>
-		<Item Name="Log on Error.vi" Type="VI" URL="../Log on Error.vi"/>
 	</Item>
 </Library>
