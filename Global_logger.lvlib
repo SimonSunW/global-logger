@@ -13,7 +13,6 @@
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Logger Output.ctl" Type="VI" URL="../Logger Output.ctl"/>
 			<Item Name="Event.ctl" Type="VI" URL="../Event.ctl"/>
-			<Item Name="Level Meaning.ctl" Type="VI" URL="../Level Meaning.ctl"/>
 			<Item Name="Logger Type.ctl" Type="VI" URL="../Logger Type.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
@@ -37,13 +36,14 @@
 	</Item>
 	<Item Name="Examples" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Example - File.vi" Type="VI" URL="../Example - File.vi"/>
-		<Item Name="Example - GUI.vi" Type="VI" URL="../Example - GUI.vi"/>
-		<Item Name="Example - Multiple Loggers.vi" Type="VI" URL="../Example - Multiple Loggers.vi"/>
+		<Item Name="Example - File.vi" Type="VI" URL="../Examples/Example - File.vi"/>
+		<Item Name="Example - GUI.vi" Type="VI" URL="../Examples/Example - GUI.vi"/>
+		<Item Name="Example - Multiple Loggers.vi" Type="VI" URL="../Examples/Example - Multiple Loggers.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Controls" Type="Folder">
+			<Item Name="Level Meaning.ctl" Type="VI" URL="../Level Meaning.ctl"/>
 			<Item Name="File Options.ctl" Type="VI" URL="../File Options.ctl"/>
 			<Item Name="Levels.ctl" Type="VI" URL="../Levels.ctl"/>
 			<Item Name="Log Fields.ctl" Type="VI" URL="../Log Fields.ctl"/>
