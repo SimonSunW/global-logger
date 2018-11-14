@@ -1,1 +1,20 @@
+<<<<<<< HEAD
 logs
+=======
+# Libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+
+# Metadata
+*.aliases
+*.lvlps
+>>>>>>> 87a98bfb5415ba5312265b1c2ff9a158ad7cdf8a
